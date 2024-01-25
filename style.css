@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px
+    
+    
+}
+.outer{
+    padding: 10px 60px;
+}
+
+
+.col{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0px;
+}
+
+ .second , .third , .forth{
+    margin-top: 15px;
+    
+}
+.third{
+    padding: 15px 25px;
+}
+
+
+.button{
+    margin-top: 30px;
+    width: 150px;
+    padding: 4px 4px;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
