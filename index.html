@@ -1,32 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <form class="container">
 
         <fieldset class="outer">
-            <legend><h2>Student Registration Form</h2></legend>
+            <legend>
+                <h2>Student Registration Form</h2>
+            </legend>
 
             <div class="first">
 
                 <Label class="col">Student Name :
-                    <input type="text">
+                    <input type="text" placeholder="Enter your name" required>
                 </Label>
 
                 <Label class="col">Enrollment No. :
-                    <input type="text">  
+                    <input type="text" placeholder="Enter your Enrollment No." required>
                 </Label>
 
-                <label>Course : </label>
-                <input type="radio">
-                <label for="">BCA</label>
-                <input type="radio">
-                <label for="">MCA</label>
+                <label class="col">Course :
+
+                    <div class="course-sel">
+
+                        <input type="radio">
+                        <label class="selection">BCA</label>
+
+                        <input type="radio">
+                        <label class="selection">MCA</label>
+
+                    </div>
+
+                </label>
 
             </div>
 
@@ -35,44 +47,54 @@
                 <fieldset class="second">
                     <legend>Academic Details</legend>
 
-                    <Label class="col">Graduation Stream : 
-                        <input type="radio">
-                        <label for="">BA</label>
 
-                        <input type="radio">
-                        <label for="">BCom</label>
 
-                        <input type="radio">
-                        <label for="">Bsc</label>
+                    <Label class="col">Graduation Stream :
 
-                        <input type="radio">
-                        <label for="">BCA</label>
+                        <div>
+
+                            <input type="radio">
+                            <label class="selection">BA</label>
+
+                            <input type="radio">
+                            <label class="selection">BCom</label>
+
+                            <input type="radio">
+                            <label class="selection">Bsc</label>
+
+                            <input type="radio">
+                            <label class="selection">BCA</label>
+
+                        </div>
+
                     </Label>
+
                     <Label class="col">Graduation % :
-                        <input type="text">  
+                        <input type="text" placeholder="Graduation %" required>
                     </Label>
+
 
                 </fieldset>
 
             </div>
 
-            <div >
+            <div>
 
                 <fieldset class="third">
                     <legend>Clubs Interested in</legend>
-                    <div>
-                        <input type="checkbox">
-                        <label for="">Cultural</label>
 
-                        <input type="checkbox">
-                        <label for="">Technical</label>
+                    <input type="checkbox">
+                    <label class="selection">Cultural</label>
 
-                        <input type="checkbox">
-                        <label for="">Eco-Social</label>
+                    <input type="checkbox">
+                    <label class="selection">Technical</label>
 
-                        <input type="checkbox">
-                        <label for="">Sports</label>
-                    </div>
+                    <input type="checkbox">
+                    <label class="selection">Eco-Social</label>
+
+                    <input type="checkbox">
+                    <label class="selection">Sports</label>
+
                 </fieldset>
             </div>
 
@@ -80,29 +102,34 @@
                 <fieldset class="forth">
                     <legend>Fees</legend>
 
-                    <Label class="col">Tuition Fees 
-                        <input type="text">
+                    <Label class="col">Tuition Fees
+                        <input type="text" placeholder="Tuition Fees">
                     </Label>
-                    <Label class="col">University Fees 
-                        <input type="text">  
+                    <Label class="col">University Fees
+                        <input type="text" placeholder="University Fees">
                     </Label>
-                    <Label class="col">Activity Fees 
-                        <input type="text">
+                    <Label class="col">Activity Fees
+                        <input type="text" placeholder="Activity Fees ">
                     </Label>
-                    <Label class="col">Total 
-                        <input type="text">  
+                    <Label class="col">Total
+                        <input type="text" placeholder="Total">
                     </Label>
 
                 </fieldset>
             </div>
 
             <div class="btn">
-                <button class="button">Submit</button>
+                <button class="button">SUBMIT</button>
             </div>
 
 
         </fieldset>
 
     </form>
+
+    <footer class="footer">
+        <div class="footer-text">@Student</div>
+    </footer>
 </body>
+
 </html>
